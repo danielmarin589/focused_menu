@@ -299,7 +299,7 @@ class _FocusedMenuDetailsState extends State<FocusedMenuDetails> {
                         sigmaX: widget.blurSize ?? 4,
                         sigmaY: widget.blurSize ?? 4),
                     child: Container(
-                      color: (widget.blurBackgroundColor ?? Colors.black),
+                      color: (widget.blurBackgroundColor ?? Colors.transparent),
                     ),
                   )),
               Positioned(
